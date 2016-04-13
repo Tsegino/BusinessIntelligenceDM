@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_BI_Project", "Integration Services Project1\SSIS_BI_Project.dtproj", "{A49252D2-B9A6-4E7B-9E53-50C83B889869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49252D2-B9A6-4E7B-9E53-50C83B889869}.Development|Default.ActiveCfg = Development
+		{A49252D2-B9A6-4E7B-9E53-50C83B889869}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
