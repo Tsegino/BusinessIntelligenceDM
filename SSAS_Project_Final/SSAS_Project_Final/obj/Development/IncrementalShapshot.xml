@@ -1,0 +1,68 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_Project_Final</Database>
+    <Server>TSEGAI\MSSQLSERVE_CUBE</Server>
+    <ConnectionString>DataSource=TSEGAI\MSSQLSERVE_CUBE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>psdgoOvTZmXcrSNfTosFz8gMdPY=2016-04-13 12:10:58 PM2016-04-13 12:10:58 PM</TimeStamp>
+        <ID>
+          <String>Business Intelligence-PROJECT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>llamptczxQu7Raztvh1SoFMpUps=2016-04-13 12:13:02 PM2016-04-13 12:11:29 PM</TimeStamp>
+        <ID>
+          <String>Business Intelligence-PROJECT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qM3Orp9BFaq8wigoLsYRZbhgQls=2016-04-13 12:14:51 PM2016-04-13 12:14:51 PM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TeTgTjVNce8EhmYDz8bZactlIqY=2016-04-13 12:14:51 PM2016-04-13 12:14:51 PM</TimeStamp>
+        <ID>
+          <String>Dim Department</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>hN7Mx4cVHL+CVCGEByoBKt2vgGk=2016-04-13 12:14:51 PM2016-04-13 12:14:51 PMpFny6pUUIU5Ai8l850qzHb8lvnY=2016-04-13 12:14:51 PM2016-04-13 12:14:51 PM</TimeStamp>
+        <ID>
+          <String>Business Intelligence-PROJECT</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>sAgqq9UBasI/kzSzJf1X1RBxr84=2016-04-12 7:06:46 PM2016-04-13 9:43:34 AM</TimeStamp>
+      <ID>
+        <String>SSAS_Project_Final</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-13T16:15:32.37Z</LastDeployed>
+</DeploymentSnapshot>
